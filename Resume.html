@@ -1,189 +1,213 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume | Rachael Owolabi</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <meta name="description" content="Resume overview for Rachael Owolabi, including education, technical skills, projects, experience, and contact links.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="index.html">Rachael</a>
-      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto align-items-lg-center">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="Project.html">Projects</a></li>
-          <li class="nav-item"><a class="nav-link active" href="Resume.html">Resume</a></li>
-          <li class="nav-item ms-lg-3 mt-3 mt-lg-0"><a class="btn btn-brand" href="Rachael_Owolabi_Resume_JD.docx" download>Download Resume</a></li>
+  <div class="statusbar">
+    <div class="wrap">
+      <span><span class="dot"></span>resume - education, skills, projects, experience</span>
+      <span class="right">download: <span>available</span></span>
+    </div>
+  </div>
+
+  <header class="site">
+    <div class="wrap">
+      <a class="logo" href="index.html">Rachael Owolabi<span class="dot">.</span></a>
+      <nav class="primary" aria-label="Primary navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Project.html">Projects</a></li>
+          <li><a class="active" href="Resume.html">Resume</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
         </ul>
-      </div>
+      </nav>
+      <a class="btn solid" href="Rachael_Owolabi_Resume_Software_developer.docx" download>Download Resume</a>
     </div>
-  </nav>
+  </header>
 
-  <section class="project-hero">
-    <div class="container">
-      <div class="resume-top">
-        <span class="section-tag">Resume Overview</span>
-        <h1 class="section-title">Rachael Owolabi</h1>
-        <p>Mississauga, Ontario | <a href="mailto:Rachaelowolabi89@gmail.com">Rachaelowolabi89@gmail.com</a> | (437) 556-8645</p>
-        <p><a href="https://github.com/rachaelowo" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/owolabi-rachael" target="_blank">LinkedIn</a></p>
+  <main>
+    <section class="pagehero">
+      <div class="wrap">
+        <div class="eyebrow" style="color:var(--brass-bright);">resume overview</div>
+        <h1>Rachael Owolabi</h1>
+        <p>Mississauga, Ontario · <a href="mailto:Rachaelowolabi89@gmail.com">Rachaelowolabi89@gmail.com</a> · (437) 556-8645</p>
+        <p><a href="https://github.com/rachaelowo" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.linkedin.com/in/owolabi-rachael" target="_blank" rel="noopener">LinkedIn</a></p>
       </div>
+    </section>
 
-      <div class="resume-grid">
-        <div class="resume-card">
-          <h5>Professional Summary</h5>
-          <p class="text-muted-custom mb-0">
-            Motivated Computer Programming student at Humber College with hands-on experience in Python, JavaScript, full-stack web development, and mobile app development. Proven ability to translate functional requirements into technical solutions through project work, with strong analytical, problem-solving, and collaboration skills. Seeking a junior developer role where I can contribute, take ownership, and grow with an innovative team.
-          </p>
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Profile and foundation</h2>
+          <p class="sub">A concise view of my education, skills, certification work, and development focus.</p>
         </div>
 
-        <div class="resume-card">
-          <h5>Education</h5>
-          <ul>
-            <li><strong>Advanced Diploma in Computer Programming</strong> - Humber College, Etobicoke, Ontario</li>
-            <li>Expected graduation: June 2026</li>
-            <li>Dean's Honour Roll</li>
-            <li>Relevant coursework: object-oriented programming, web development, databases, SDLC, and Agile</li>
-          </ul>
-        </div>
+        <div class="resume-grid">
+          <article class="resume-card">
+            <h5>Professional Summary</h5>
+            <p>Computer Programming graduate from Humber College with hands-on experience in full-stack web development, REST API integration, and automated testing. Eager to take ownership of features and contribute to a collaborative, product-driven team.</p>
+          </article>
 
-        <div class="resume-card">
-          <h5>Technical Skills</h5>
-          <ul>
-            <li>Languages: Java, Python, JavaScript, HTML, CSS, SQL</li>
-            <li>Frameworks and tools: Bootstrap, Django, React, Node.js, Express, Git, GitHub, VS Code, Postman</li>
-            <li>Databases: MongoDB, MySQL, SQL fundamentals</li>
-            <li>Other: REST APIs, responsive design, mobile app development, Figma, Linux basics</li>
-          </ul>
-        </div>
-
-        <div class="resume-card">
-          <h5>Certification</h5>
-          <ul>
-            <li><strong>ISC2 Certified in Cybersecurity (CC)</strong> - Course completed</li>
-            <li>Completed the ISC2 Certified in Cybersecurity training program</li>
-            <li>Exam pending</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="pt-0">
-    <div class="container">
-      <span class="section-tag">Experience</span>
-      <h2 class="section-title">Professional and project experience.</h2>
-
-      <div class="row g-4 mt-2">
-        <div class="col-lg-6">
-          <div class="timeline-card h-100">
-            <p class="timeline-role mb-1">Event Staff | BBW International</p>
-            <p class="timeline-date mb-3">May 2025 - Present</p>
+          <article class="resume-card">
+            <h5>Education</h5>
             <ul>
-              <li>Coordinate effectively with diverse team members in a fast-paced environment.</li>
-              <li>Demonstrate strong communication, professionalism, and collaborative work habits.</li>
-              <li>Take initiative to resolve on-site challenges quickly while supporting smooth event operations.</li>
-              <li>Build interpersonal and coordination skills that transfer well to client-facing technical roles.</li>
+              <li><strong>Diploma in Computer Programming</strong> - Humber College, Etobicoke, Ontario</li>
+              <li>Graduated: June 2026</li>
+              <li>Dean's Honour Roll</li>
+              <li>Relevant coursework: object-oriented programming, web development, databases, SDLC, and Agile</li>
             </ul>
-          </div>
-        </div>
+          </article>
 
-        <div class="col-lg-6">
-          <div class="timeline-card h-100">
-            <p class="timeline-role mb-1">Ennie Garden Estate Platform</p>
-            <p class="timeline-date mb-3">Featured Full-Stack Project</p>
+          <article class="resume-card">
+            <h5>Technical Skills</h5>
             <ul>
-              <li>Designed and built a full-stack real estate web application from functional requirements.</li>
-              <li>Developed a responsive interface for property exploration, visit scheduling, and inquiry submission.</li>
-              <li>Built an admin dashboard for managing leads and property availability.</li>
-              <li>Used Node.js, Express, MongoDB, HTML, CSS, and JavaScript to deliver an end-to-end solution.</li>
+              <li>Languages: Java, Python, JavaScript, TypeScript, HTML, CSS, SQL</li>
+              <li>Frameworks and tools: Bootstrap, Django, Node.js, Express, React, Next.js, Tailwind CSS, Katalon, Git, GitHub, VS Code, Postman</li>
+              <li>Databases: MongoDB, MySQL, SQL fundamentals</li>
+              <li>AI development tools: Cursor, GitHub Copilot, Claude</li>
+              <li>Other: REST APIs, responsive design, manual and automated testing, test case design, defect tracking, CI/CD, Figma, Linux basics</li>
             </ul>
-          </div>
-        </div>
+          </article>
 
-        <div class="col-lg-6">
-          <div class="timeline-card h-100">
-            <p class="timeline-role mb-1">Recipe Generator</p>
-            <p class="timeline-date mb-3">API-Based Web Project</p>
+          <article class="resume-card">
+            <h5>Certification</h5>
             <ul>
-              <li>Designed and implemented a responsive recipe discovery application using third-party API data.</li>
-              <li>Enabled browsing by ingredient and category through a simple, intuitive interface.</li>
-              <li>Showcased practical experience with Python, JavaScript, and API-driven development.</li>
+              <li><strong>ISC2 Certified in Cybersecurity (CC)</strong> - Course completed</li>
+              <li>Completed the ISC2 Certified in Cybersecurity training program</li>
+              <li>Exam pending</li>
             </ul>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <div class="timeline-card h-100">
-            <p class="timeline-role mb-1">Professional Strengths</p>
-            <p class="timeline-date mb-3">How I work</p>
-            <ul>
-              <li>Analytical problem solving and fast learning in technical environments.</li>
-              <li>Clear communication and collaboration across teams.</li>
-              <li>Adaptability, time management, and a strong sense of responsibility.</li>
-            </ul>
-          </div>
+          </article>
         </div>
       </div>
+    </section>
 
-      <div class="resume-grid mt-4">
-        <div class="resume-card">
-          <h5>Core Tools</h5>
-          <div>
-            <span class="skill-pill">Java</span>
-            <span class="skill-pill">Python</span>
-            <span class="skill-pill">JavaScript</span>
-            <span class="skill-pill">React</span>
-            <span class="skill-pill">Node.js</span>
-            <span class="skill-pill">Express</span>
-            <span class="skill-pill">MongoDB</span>
-            <span class="skill-pill">MySQL</span>
-            <span class="skill-pill">GitHub</span>
-            <span class="skill-pill">Postman</span>
-            <span class="skill-pill">Mobile Apps</span>
-          </div>
+    <section class="tight">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Professional and project experience</h2>
+          <p class="sub">Work habits, collaboration, and software projects that show practical execution.</p>
         </div>
 
-        <div class="resume-card text-center">
-          <h5 class="mb-3">Download the resume file</h5>
-          <p class="text-muted-custom">Use the original resume document for applications, recruiter outreach, or direct sharing.</p>
-          <a href="Rachael_Owolabi_Resume_JD.docx" class="btn btn-brand" download>Download Resume</a>
+        <div class="explist">
+          <article class="expitem">
+            <div class="when">May 2025 - Present</div>
+            <div>
+              <h4>Event Staff | BBW International</h4>
+              <span class="role">Customer-facing operations</span>
+              <ul>
+                <li>Coordinated effectively with diverse team members in a fast-paced environment, demonstrating strong communication, professionalism, and a collaborative work ethic.</li>
+                <li>Took initiative to resolve on-site challenges quickly, applying analytical and problem-solving skills to ensure smooth event operations.</li>
+                <li>Supported guests and team leads with a results-oriented approach, building interpersonal and coordination skills directly transferable to a client-facing technical role.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="expitem">
+            <div class="when">Featured Project</div>
+            <div>
+              <h4>Ennie Garden Estate Platform</h4>
+              <span class="role">Full-stack web application</span>
+              <ul>
+                <li>Designed and built a full-stack real estate web application by converting functional requirements into a responsive technical solution.</li>
+                <li>Developed a clean, user-friendly interface for property exploration, visit scheduling, and inquiry submission.</li>
+                <li>Built an admin dashboard for managing leads and availability, demonstrating end-to-end ownership of a technical deliverable.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="expitem">
+            <div class="when">Testing Project</div>
+            <div>
+              <h4>DemoBlaze Automation Test Suite</h4>
+              <span class="role">Java and Katalon</span>
+              <ul>
+                <li>Collaborated in a group to build an automated test suite for the DemoBlaze e-commerce platform, covering login, cart, and checkout flows using Java and Katalon.</li>
+                <li>Wrote and executed test cases, tracked defects, performed regression testing, and managed version control across team branches using Git.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="expitem">
+            <div class="when">API Project</div>
+            <div>
+              <h4>Recipe Generator</h4>
+              <span class="role">Python, API integration, JavaScript</span>
+              <ul>
+                <li>Designed and implemented a responsive recipe discovery application integrating a third-party API to surface results by ingredient and category.</li>
+                <li>Applied UX principles to deliver a clean, intuitive interface, showcasing practical experience with Python, JavaScript, and API-driven development.</li>
+              </ul>
+            </div>
+          </article>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <section class="tight">
+      <div class="wrap">
+        <div class="resume-grid">
+          <article class="resume-card">
+            <h5>Core Tools</h5>
+            <div class="chiprow">
+              <span class="chip">Java</span>
+              <span class="chip">Python</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">TypeScript</span>
+              <span class="chip">React</span>
+              <span class="chip">Next.js</span>
+              <span class="chip">Tailwind CSS</span>
+              <span class="chip">Node.js</span>
+              <span class="chip">Express</span>
+              <span class="chip">MongoDB</span>
+              <span class="chip">MySQL</span>
+              <span class="chip">Katalon</span>
+              <span class="chip">GitHub</span>
+              <span class="chip">Postman</span>
+              <span class="chip">Cursor</span>
+              <span class="chip">GitHub Copilot</span>
+              <span class="chip">Claude</span>
+              <span class="chip">CI/CD</span>
+            </div>
+          </article>
+
+          <article class="resume-card">
+            <h5>Download</h5>
+            <p>Use the original resume document for applications, recruiter outreach, or direct sharing.</p>
+            <div class="actions">
+              <a href="Rachael_Owolabi_Resume_Software_developer.docx" class="btn solid" download>Download Resume</a>
+              <a href="index.html#contact" class="btn brass">Contact</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
-      <p class="mb-0">&copy; <span id="year"></span> Rachael Owolabi.</p>
-      <p class="mb-0">Resume, skills, and experience overview</p>
+    <div class="wrap">
+      <span>© 2026 Rachael Owolabi</span>
+      <span>Resume, skills, and experience overview</span>
     </div>
   </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
+    document.body.classList.add("loaded");
 
-    const observer = new IntersectionObserver((entries) => {
+    const revealObserver = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("is-visible");
+          revealObserver.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.18 });
+    }, { threshold: 0.14 });
 
-    document.querySelectorAll(".resume-card, .timeline-card").forEach((element) => {
+    document.querySelectorAll(".pagehero .wrap > *, .section-head, .resume-card, .expitem").forEach((element) => {
       element.classList.add("reveal");
-      observer.observe(element);
+      revealObserver.observe(element);
     });
   </script>
 </body>
